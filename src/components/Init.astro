@@ -2,6 +2,8 @@
 import Projects from "./Projects.astro"
 import Testimonials from "./Testimonials.astro"
 import Education from "./Education.astro"
+
+import userImage from "../assets/images/user.jpg"
 ---
 
 
@@ -9,7 +11,7 @@ import Education from "./Education.astro"
 
     <section class="flex flex-row gap-12 md:gap-16 justify-center items-center w-full m-auto">
         <article class="">
-            <img class="size-[24em] bg-cover animation-morph" src="/src/assets/images/user.jpg" alt="">
+            <img class="size-[24em] bg-cover animation-morph" src={userImage?.src} alt="">
         </article>
         
         <article class="flex flex-col gap-8 justify-center items-start max-w-md">
