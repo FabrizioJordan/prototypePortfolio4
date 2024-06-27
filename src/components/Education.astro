@@ -2,35 +2,39 @@
 
 ---
 
-<article class="flex flex-col justify-start items-center gap-12">
+<article class="flex flex-col justify-start items-center gap-16">
 
     <header>
-        <h2 class="text-4xl font-bold text-blue-700">Education</h2>
+        <h2 class="text-4xl font-bold text-blue-one">Education</h2>
     </header>
 
-    <section class="flex flex-col gap-8 justify-center items-center">
+    <section class="flex flex-col gap-8 justify-center items-center
+    [&>article]:flex [&>article]:flex-col [&>article]:md:flex-row [&>article]:gap-4 [&>article]:md:gap-8 [&>article]:justify-center [&>article]:items-start [&>article]:py-4">
 
-        <article class="flex flex-row gap-8 justify-center items-start py-4">
+        <article class="">
             <header>
-                <time class="font-extralight" datetime="">2010-2016</time>
+                <time datetime="">2010-2016</time>
             </header>
-
-            <p class="font-semibold text-xl max-w-md ">University of Boston, Computer Science</p>
-
+            <div class="flex flex-col gap-1 font-semibold text-xl max-w-md">
+                <p class="">University of Boston,</p>
+                <p class="">Computer Science</p>
+            </div>
             <p class="text-[#8d8d8d] max-w-64 text-balance">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
         </article>
 
-        <hr class="border-t border-[#b9b9b9] w-4/5 m-auto">
+        <hr class="border-t border-[#b9b9b9] w-full md:w-4/5 m-auto">
 
-        <article class="flex flex-row gap-8 justify-center items-start py-4">
+         <article class="">
             <header>
-                <time class="font-extralight" datetime="">2010-2016</time>
+                <time datetime="">2010-2016</time>
             </header>
-
-            <p class="font-semibold text-xl max-w-md ">University of Boston, Computer Science</p>
-
+            <div class="flex flex-col gap-1 font-semibold text-xl max-w-md">
+                <p class="">University of Boston,</p>
+                <p class="">Computer Science</p>
+            </div>
             <p class="text-[#8d8d8d] max-w-64 text-balance">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
         </article>
+
     </section>
 
 </article>
