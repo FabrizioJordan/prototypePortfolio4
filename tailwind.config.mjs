@@ -5,7 +5,7 @@ export default {
 		extend: {
 			colors: {
 			  'blue-one': '#083dd1',
-			  'blue-one-hover': '#4b2d7c'
+			  'blue-one-hover': '#001e8b'
 			},
 		},
 	},
